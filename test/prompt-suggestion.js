@@ -5,7 +5,7 @@ const os = require('os');
 const rimraf = require('rimraf');
 const inquirer = require('inquirer');
 const env = require('yeoman-environment');
-const FileEditor = require('mem-fs-editor');
+const FileEditor = require('mem-fs-editor-asmagin');
 const Storage = require('../lib/util/storage');
 const promptSuggestion = require('../lib/util/prompt-suggestion');
 

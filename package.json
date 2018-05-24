@@ -1,9 +1,9 @@
 {
-  "name": "yeoman-generator",
-  "version": "3.1.0",
-  "description": "Rails-inspired generator system that provides scaffolding for your apps",
-  "homepage": "http://yeoman.io",
-  "author": "Yeoman",
+  "name": "yeoman-generator-asmagin",
+  "version": "3.2.0",
+  "description": "Rails-inspired generator system that provides scaffolding for your apps. !!! Fork due to changes in dependencies !!!",
+  "repository": "yeoman/generator",
+  "author": "Alex Smagin",
   "files": [
     "lib"
   ],
@@ -43,7 +43,6 @@
     "yeoman-test": "^1.8.0"
   },
   "license": "BSD-2-Clause",
-  "repository": "yeoman/generator",
   "engines": {
     "node": ">=6"
   },
@@ -69,7 +68,7 @@
     "istextorbinary": "^2.2.1",
     "lodash": "^4.17.10",
     "make-dir": "^1.1.0",
-    "mem-fs-editor": "^5.0.0",
+    "mem-fs-editor-asmagin": "^5.2.0",
     "minimist": "^1.2.0",
     "pretty-bytes": "^5.1.0",
     "read-chunk": "^2.1.0",
